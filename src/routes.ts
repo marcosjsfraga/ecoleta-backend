@@ -18,4 +18,4 @@ routes.post('/points', upload.single('image'), pointsController.create ); // rou
 routes.get('/points', pointsController.index)
 routes.get('/points/:id', pointsController.show)
 
-export default routes
+export default routes;
